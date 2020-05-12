@@ -1,5 +1,10 @@
 # Apache Storm images for Docker
 
+Apache storm 2.1.0
+Linux version: ubuntu 16.04
+Python 2.7
+Java 1.8
+
 # Build
 ```
 docker build -t kevin2333/storm-base base
