@@ -166,6 +166,11 @@ Make sure the Nimbus Pod is running.
 
 ```kubectl create -f storm-worker-controller.yaml```
 
+test
+```
+bin/storm jar examples/storm-starter/storm-starter-2.1.0.jar org.apache.storm.starter.WordCountTopology wordCountTopology
+```
+
 
 <!-- BEGIN MUNGE: GENERATED_ANALYTICS -->
 [![Analytics](https://kubernetes-site.appspot.com/UA-36037335-10/GitHub/examples/storm/README.md?pixel)]()
