@@ -24,9 +24,9 @@ docker tag 129385e5b910 kevin2333/storm-nimbus:latest
 docker tag 129385e5b910 kevin2333/storm-ui:latest
 docker tag 129385e5b910 kevin2333/storm-worker:latest
 
-docker push kevin2333/storm-base:latest
-docker push kevin2333/storm-nimbus:latest
-docker push kevin2333/storm-ui:latest
-docker push kevin2333/storm-worker:latest
+sudo docker push kevin2333/storm-base:latest
+sudo docker push kevin2333/storm-nimbus:latest
+sudo docker push kevin2333/storm-ui:latest
+sudo docker push kevin2333/storm-worker:latest
 
 ```
