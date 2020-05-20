@@ -1,5 +1,7 @@
 # Apache Storm base image for Docker
 
+download apache storm apache-storm-2.1.0.tar.gz
+
 This image is the base for nimbus and worker images, and a CLI
 environment for interacting with a Storm cluster.
 
