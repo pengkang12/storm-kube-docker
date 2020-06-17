@@ -31,5 +31,9 @@ sleep 30
 kubectl create -f storm-worker-service.json
 
 kubectl get pods,services,rc
+sleep 10
 
-sudo bash nginx-proxy.sh
+echo "syscloud" | sudo -S bash nginx-proxy.sh
+
+sleep 10
+bash change_worker_hosts.sh

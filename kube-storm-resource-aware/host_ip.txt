@@ -1,0 +1,6 @@
+10.32.0.6 storm-worker-controller-222gj
+10.32.0.9 storm-worker-controller-4czqv
+10.32.0.11 storm-worker-controller-4qctc
+10.32.0.7 storm-worker-controller-4zk4m
+10.32.0.3 storm-worker-controller-76476
+10.32.0.10 storm-worker-controller-fxdq6

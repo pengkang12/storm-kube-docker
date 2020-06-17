@@ -7,7 +7,7 @@
       "kind": "Pod",
       "apiVersion": "v1",
       "metadata": {
-        "name": "mosquitto1",
+        "name": "mosquitto-1",
         "labels": {
           "name": "mosquitto",
           "server-id": "1"

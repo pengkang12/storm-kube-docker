@@ -32,4 +32,8 @@ kubectl create -f storm-worker-service.json
 
 kubectl get pods,services,rc
 
+sleep 10
+
 echo "syscloud" | sudo -S bash nginx-proxy.sh
+
+bash /home/cc/storm-peng/kube-storm-resource-aware/change_worker_hosts.sh

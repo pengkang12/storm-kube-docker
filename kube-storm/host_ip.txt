@@ -1,0 +1,6 @@
+10.32.0.7 storm-worker-controller-cghkv
+10.32.0.8 storm-worker-controller-gzkcr
+10.46.0.5 storm-worker-controller-hbd6l
+10.32.0.3 storm-worker-controller-j8rsh
+10.32.0.6 storm-worker-controller-jw842
+10.32.0.9 storm-worker-controller-n6kmw
