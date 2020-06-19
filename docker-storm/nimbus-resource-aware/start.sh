@@ -4,6 +4,7 @@
 
 cat >> /opt/apache-storm/conf/storm.yaml <<EOF
 storm.scheduler: "org.apache.storm.scheduler.resource.ResourceAwareScheduler"
+topology.worker.max.heap.size.mb: 384.0
 EOF
 
 cat >> /opt/apache-storm/riot-bench/modules/tasks/src/main/resources/tasks.properties <<EOF

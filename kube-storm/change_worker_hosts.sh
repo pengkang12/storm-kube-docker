@@ -8,8 +8,14 @@ kubectl get pod -o wide | grep worker | grep -v $pod | awk '{print $6, $1}' > ho
 input="host_ip.txt"
 while IFS= read -r host_ip
 do
-  echo "$host_ip"
-  kubectl exec $pod -- sh -c "echo $host_ip >> /etc/hosts"
+  host=($host_ip)
+  string=$(kubectl exec $pod -- cat /etc/hosts | grep ${host[1]})
+  if test -z "$string" 
+  then
+    kubectl exec $pod -- sh -c "echo ${host_ip} >> /etc/hosts"
+  else
+    echo "existing" 
+  fi
 done < "$input"
 
 done
