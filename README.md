@@ -10,5 +10,6 @@ docker-storm refer to https://github.com/mattf/docker-storm. Thanks.
 kube-storm for running storm in kubernetes.
 kube-storm refer to https://github.com/kubernetes/examples/tree/master/staging/storm. 
 
-# if nimbus can't start. Try to delete zookeeper storm data. restart zookeeper again. 
+### Trouble shooting
+if nimbus can't start. Try to delete zookeeper storm data. restart zookeeper again. 
 
